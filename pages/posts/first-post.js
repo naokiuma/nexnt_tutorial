@@ -10,17 +10,19 @@ import Layout from '../../components/layout';
 const FirstPost = () => {
 	return(
 		<>
+
 			<Layout>
-				<Head>
-					<title>First post</title>
-					<link rel="icon" href="/favicon.ico" />
-				</Head>
-			
-				<h1>first post</h1>
-				<h2>
-					<Link href="/">back to home</Link>
-				</h2>
+
+			<Head>
+				<title>First post</title>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+		
 			</Layout>
+			<h1>first post</h1>
+			<h2>
+				<Link href="/">back to home</Link>
+			</h2>
 		</>
 	)
 
